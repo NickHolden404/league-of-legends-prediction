@@ -7,14 +7,14 @@ Machine learning project predicting match outcomes from champion draft and objec
 - Feature engineering: champion picks, bans, roles
 - RandomForest + XGBoost models
 - Comparison: draft-only vs draft + early objectives
-- Interactive [Streamlit app]() for predictions
+- Interactive [Streamlit app](https://league-of-legends-prediction.streamlit.app/) for predictions
 
 ## How to run locally
 
-git clone https://github.com/YOURNAME/league-of-legends-prediction.git
-cd league-of-legends-prediction
-pip install -r requirements.txt
-streamlit run app.py
+- git clone https://github.com/NickHolden404/league-of-legends-prediction.git
+- cd league-of-legends-prediction
+- pip install -r requirements.txt
+- streamlit run app.py
 
 ---
 
@@ -22,11 +22,9 @@ streamlit run app.py
 From your project folder:
 
 # if not initialized
-git init
-git add .
-git commit -m "Initial commit - League of Legends predictor"
-git branch -M main
-git remote add origin https://github.com/YOURNAME/league-of-legends-prediction.git
-git push -u origin main
-
-⚠️ Replace YOURNAME with your GitHub username.
+- git init
+- git add .
+- git commit -m "Initial commit - League of Legends predictor"
+- git branch -M main
+- git remote add origin https://github.com/NickHolden404/league-of-legends-prediction.git
+- git push -u origin main
