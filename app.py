@@ -44,9 +44,9 @@ for obj in objectives:
 # ----------------------------
 # Build feature vector
 # ----------------------------
-# Load feature template (columns must match training!)
-X_template = pd.read_csv("data/features.csv", nrows=1)
-feature_cols = list(X_template.columns)
+# New: read only column names from a text file
+with open("data/feature_columns.txt") as f:
+    feature_cols = [line.strip() for line in f.readlines()]
 
 # Start with zeros
 x = pd.Series(0, index=feature_cols, dtype=int)
